@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.player{
+background:linear-gradient(rgb(95, 208, 237),white);
+
+height: 700px;
+width: 360px;
+border-radius: 30px;
+padding: 20px;
+}
+.top{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 25px;
+color: white;
+}
+.cover img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.track-name{
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+.track-name h3{
+    font-size: 22px;
+}
+.track-name h4{
+    font-size: 14px;
+}
+.timing{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+.timing input{
+    flex: 1;
+    accent-color: black;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-content: center;
+}
